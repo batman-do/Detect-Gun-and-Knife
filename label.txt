@@ -1,0 +1,3 @@
+short_gun
+long_gun
+knife
