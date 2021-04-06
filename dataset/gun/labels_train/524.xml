@@ -1,0 +1,1 @@
+<annotations><filename>524.jpg</filename><folder>images/524.jpg</folder><size><width>247</width><height>204</height><depth>3</depth></size><object><name>short_gun</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>8</xmin><ymin>41</ymin><xmax>204</xmax><ymax>136</ymax></bndbox></object></annotations>

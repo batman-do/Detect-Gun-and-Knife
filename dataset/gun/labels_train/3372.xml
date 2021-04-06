@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>3372.jpg</filename>
+	<path>/home/daoxuando/Desktop/Gun_data_labeled/data/gun/images/3372.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>371</width>
+		<height>136</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>long_gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>24</ymin>
+			<xmax>359</xmax>
+			<ymax>123</ymax>
+		</bndbox>
+	</object>
+</annotation>

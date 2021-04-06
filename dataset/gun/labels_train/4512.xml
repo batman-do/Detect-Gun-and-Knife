@@ -1,0 +1,1 @@
+<annotations><filename>4512.jpg</filename><folder>images/4512.jpg</folder><size><width>281</width><height>180</height><depth>3</depth></size><object><name>knife</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>23</xmin><ymin>32</ymin><xmax>257</xmax><ymax>150</ymax></bndbox></object></annotations>

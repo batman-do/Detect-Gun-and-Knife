@@ -1,0 +1,1 @@
+<annotations><filename>2022.jpg</filename><folder>images/2022.jpg</folder><size><width>700</width><height>460</height><depth>3</depth></size><object><name>short_gun</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>3</xmin><ymin>6</ymin><xmax>700</xmax><ymax>452</ymax></bndbox></object></annotations>
