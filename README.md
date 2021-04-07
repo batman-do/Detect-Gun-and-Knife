@@ -59,9 +59,8 @@ anchors_ratios: '[(1.0, 1.0), (1.4, 0.7), (0.7, 1.4)]'
 
 ```
 ### Train
-
 ```
-  python train.py -c 2 -p gun_knife --batch_size num_batch_size --lr learning_rate --num_epochs number_epochs --load_weights efficientdet-d2.pth --head_only True
+  python train.py -c 2 -p gun_knife --batch_size 16 --lr 1e-3 --num_epochs 500 --load_weights efficientdet-d2.pth --head_only True
 
 ```
 - Có thể tự chỉnh được epochs ,.... nhưng ở đây dài quá nên chỉnh luôn trong file train để default
