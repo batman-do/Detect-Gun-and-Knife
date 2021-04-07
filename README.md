@@ -36,7 +36,7 @@ COCO_CLASSES = ["short_gun","long_gun","knife"]
 - Chỉnh sửa file `efficient_test.py`
 ```
 obj_list = ["short_gun","long_gun","knife"]
-compound_coef = 2 # Ở bài này em sử dụng efficientdet-d2
+compound_coef = 2 # Do sử dụng efficientdet-d2
 
 ```
 - Có thể chỉnh sửa các thông số default trong file train hoặc có không cần khi mình train có thể tự chỉnh bằng câu lệnh
