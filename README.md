@@ -5,4 +5,4 @@
 - Knife
 
 
-### *Using EfficientDet-D2*
+
