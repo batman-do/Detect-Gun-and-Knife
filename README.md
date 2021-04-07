@@ -7,8 +7,8 @@
 ### Prepare dataset
 
 - Chuyển dataset từ định sang xml sang dạng json (coco) 
-- File *dataset/gun/annotations* chứa 2 file train and val 
-- File *label.txt* chứa chứa 3 đối tượng : short_gun, long_gun, knife
+- File `dataset/gun/annotations` chứa 2 file train and val 
+- File `label.txt` chứa chứa 3 đối tượng : short_gun, long_gun, knife
 
 ```
   python voc_to_coco.py --ann_paths_list train.txt --label label.txt --output dataset/gun/annotations/instances_train.json --ext xml
@@ -26,14 +26,14 @@
     └─test   # val images
   
 ```
-### Chỉnh sửa file
+### Cust
 
-- Chỉnh sửa file *efficientdet/config.py*
+- Chỉnh sửa file `efficientdet/config.py`
 ```
 COCO_CLASSES = ["short_gun","long_gun","knife"]
 
 ```
-- Chỉnh sửa file *efficient_test.py*
+- Chỉnh sửa file `efficient_test.py`
 ```
 obj_list = ["short_gun","long_gun","knife"]
 compound_coef = 2 # Ở bài này em sử dụng efficientdet-d2
@@ -41,7 +41,7 @@ compound_coef = 2 # Ở bài này em sử dụng efficientdet-d2
 ```
 - Có thể chỉnh sửa các thông số default trong file train hoặc có không cần khi mình train có thể tự chỉnh bằng câu lệnh
 
-- Khởi tạo file *gun_knife.yml*
+- Khởi tạo file `gun_knife.yml`
 
 ```
 project_name: gun  # also the folder name of the dataset that under data_path folder
