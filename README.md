@@ -6,7 +6,7 @@
 
 ### Prepare dataset
 
-- Chuyển dataset từ định sang xml sang dạng json (coco) 
+- Chuyển dataset từ định xml sang dạng json (coco) 
 - File `dataset/gun/annotations` chứa 2 file train and val 
 - File `label.txt` chứa chứa 3 đối tượng : short_gun, long_gun, knife
 
