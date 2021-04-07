@@ -65,11 +65,12 @@ anchors_ratios: '[(1.0, 1.0), (1.4, 0.7), (0.7, 1.4)]'
 
 ```
 - Có thể tự chỉnh được epochs ,.... nhưng ở đây dài quá nên chỉnh luôn trong file train để default
+- Khi trên sẽ tạo ra file logs lưu loss và weights của model,có thể biểu diễn loss (sử dụng tesorboradX)
 
 ### Evaluate model
 
 ```
-python coco_eval.py -p gun_knife -c 2 -w path_weights_model weights/efficientdet-d2_.....pth
+python coco_eval.py -p gun_knife -c 2 -w path_weights_model logs/gun/efficientdet-d2_.....pth
 
 ```
 
